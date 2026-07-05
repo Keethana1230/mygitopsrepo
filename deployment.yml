@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: web-deployment
 spec:
-  replicas: 3  # You can adjust the number of pods
+  replicas: 4  # You can adjust the number of pods
   selector:
     matchLabels:
       app: web
